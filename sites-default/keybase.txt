@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/cwrau
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://cwrcoding.com
+  * I am cwrau (https://keybase.io/cwrau) on keybase.
+  * I have a public key with fingerprint 6ADC BD3F F206 F341 D2CF  8E2C 49D1 B5AC CF53 CA1C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120bb225a1bb22b5e8d71470df83a02020f9bb163a2b2659371fe885cee97d8c8700a",
+            "fingerprint": "6adcbd3ff206f341d2cf8e2c49d1b5accf53ca1c",
+            "host": "keybase.io",
+            "key_id": "49d1b5accf53ca1c",
+            "kid": "01010bc81a4894f1449df87f263b1a6aec8102a54c0b6e016105dbe65da915d702430a",
+            "uid": "9c71afdec79f3c97d5df916cd0d5fe19",
+            "username": "cwrau"
+        },
+        "revoke": {
+            "sig_ids": [
+                "db50aaecccb95cb4b14b071892d9bc4d9db5c78b8398125ed5eabfd89cecffa20f"
+            ]
+        },
+        "service": {
+            "hostname": "cwrcoding.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1494316438,
+    "expire_in": 157680000,
+    "prev": "1ce627f1ab3bd8cfd10f1c5cced120d0bf9c11df1aac7aa67515bc3442571d61",
+    "seqno": 17,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.70
+Comment: https://keybase.io/crypto
+
+yMOqAnicbZJ5UFVVHMffU2EGcsHBkaZhKq/jkgFzz93vyxyphkRHnUigFHud9fl8
+8C68BSJFYExcBlnSdJLRyZmyMjcUGyoUn4IhMr1cUcllMjSdoLQy1+hcJqd/uueP
+M/eez+/7+57v/bWNGOqId2ae2L8j+npnsvN45HbY8ebo8IYlArJIqeBaIvjo4Ebz
+CQ2G3D4vEVyCCCQRIUlSIbA3pFKD6EDRRcIMGYoSX8xECGgylJCkqaasA0YNQ8WU
+mjoxsKGLIhRSBOb1e2igMOD1h7isBglGRGZMEjUmK4BImBlUwopJAFIhxkyVMQSY
+Fy6ygnYFN4dgkKZ5Lf6Nv7gH7f0P/9g3XwgbACqGqTCgcJIZOpM0GQGoQcqPRAmq
+ChaRRkWgAVEliGoqgSZQiS5KijzoOzwoZ2IdQEYo1k0mY34xlTATaJiIRGUUmDYY
+pAE/LKCcxiUBGBbKUoQALbZ81A416PVwx0HBtUAgSBUhN4AxMlWMFAQUJOrAMCVi
+IqwQkwNYN5AhmwaQVEpUChEjhokpZgzywIWFXJu3K/biQXE7ov9aY4vwrNOwVcBd
+FQaskIWtfH60KBQqDLpsW6HSQpstocj9r4obef12Fa8opoGg1/ILLsBJHPLaskAx
+FRloimykCPSdQm+Aur02oeqaIfLH7kOLuSTAVJN0BiCSEf/5jACRAaxiTAkfJCIi
+ZmIACAcg1iHUdBWoCMuKIqk6IBoQ7HsV+S2urXOf0MM1eXR+GAoHqFB2OJI3zOGM
+d8TGDLFH1xEfl/B4oIcaCY6D5+iSOP1yz6R5A/eW3i37W47ZGjffs+vgK/uOBp1v
+aJ2TT9bNaF2T2Vpbn6+5m/IT798Nf5I+7mmhO6d9QkaSJ6HxykwhZdW6LUMnPD/X
+N2VXJH+0eWmvuq171Nq+5r5HrqIN9btb6tYUL+i8euDo4qbJ6MBneY1xP00p6f5t
+1bVP46uva0eqxPrZF5+tGn8+OuZeQ+IpeWpP7oPq5j+KYupvbNh/psV53R1TW/hy
+dkN5/faSkFpTunbrsciZtOwf2ja1p7PYsyNJ7/G+3GcqVjU8ePHEneY5Hy8mvoex
+Wd/d9JKac5GdFxr1gVRS/f69uOeyI11Tr8b/WP151bcXOm70mVb6C8HA9sM+NCTv
+vf7KIwzH1nz/4Z6Lr/48q6xr6bGx5ZeWP5zYOr4g4dRTVRl1mfNWlG68VWmtudCS
+PL9lTuWmvLk7bnf/+VVOxROeroHK1MzXkmYlX6mbOL9t7Fs3S8LfrKysGOiZ7Uze
+/eXv+i9m/4Sc3jtZX+8t6G+Y3PEkPtnSsfxRhTua0ZGYt3nm2tmLM5MPH5s5IiqU
+55oxOfseXutxBMbdN53vftA7cpfk+yt6qGZb+a1pZ8f0jx+4ub3oBtlDqzt3nr3T
+NXJ15vqGt1cvfCn18ohIe9L16XNzPOui2be+qF3WFNrc+dHElb9e292U21ozXRs+
+Y7i+2b1i2unzh1K3nB61sXJ987Cs3GX/AK5s6tE=
+=6kZ0
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cwrau
+
+==================================================================
+
