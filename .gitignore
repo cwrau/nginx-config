@@ -1,2 +1,4 @@
 *.pem
 .htpasswd
+*.swp
+pause
