@@ -1,5 +1,10 @@
 # nginx-config
-nginx config file for my server
+nginx config files for my server
+
+This configuration ensures A+ rating on [Qualys SSL Labs](https://www.ssllabs.com/ssltest/analyze.html?d=cwrcoding.com) (as of 2017-06-13)
+
+If you have any questions regarding nginx setup, Let's Encrypt certificates and so on I'd be glad to help, just contact me.
+___
 
 The crontab I use to autoupdate the nginx config and the website is;
 
