@@ -1,6 +1,0 @@
-server {
-	listen		[::]:80 default_server ipv6only=off;
-	server_name	_;
-	return 		302 https://$host$request_uri;
-}
-
