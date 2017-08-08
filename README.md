@@ -1,7 +1,7 @@
 # nginx-config
 nginx config files for my server
 
-This configuration ensures A+ rating with 100/100/100/100 on [Qualys SSL Labs](https://www.ssllabs.com/ssltest/analyze.html?d=cwrcoding.com) (as of 2017-07-21)
+This configuration ensures A+ rating with 100/100/100/100 and without blacklisted ciphers for http/2 on [Qualys SSL Labs](https://www.ssllabs.com/ssltest/analyze.html?d=cwrcoding.com) (as of 2017-08-08)
 
 My setup even handles http/2 on CentOS 7 with the help of the [Exove CentOS yum Repository](https://packages.exove.com/)
 
