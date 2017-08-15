@@ -1,4 +1,3 @@
-*.pem
 .htpasswd
 *.swp
 pause
