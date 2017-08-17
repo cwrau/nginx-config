@@ -1,4 +1,7 @@
 <?php
+	if (!file_exists('dropin')) {
+		mkdir('dropin', 0777, true);
+	}
 	foreach (array_keys($_FILES) as $key) {
 		if ($_FILES[$key]['size']) {
 			echo ($_FILES[$key]['name'] . ": ");
