@@ -23,6 +23,6 @@ echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
 	service nginx stop
-	certbot-2 certonly --standalone --rsa-key-size 4096 $domainsParameter
+	certbot certonly --standalone --rsa-key-size 4096 $domainsParameter
 	service nginx start
 fi
