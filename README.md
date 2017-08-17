@@ -13,6 +13,6 @@ ___
 The crontab I use to autoupdate the nginx config and the website is;
 
 ```bash
-*/1 * * * * su -s /bin/sh nginx -c 'cd /websites/cwrcoding.com && [ ! -f pause ] && /usr/bin/git fetch --all && /usr/bin /git reset --hard origin/$(git branch | sed -n -e "s/^\* \(.*\)/\1/p") && /usr/bin/git checkout $(git branch | sed -n -e "s/^\* \(.*\)/\1/ p")'
-*/1 * * * * su -s /bin/sh nginx -c 'cd /websites/nginx-config && [ ! -f pause ] && /usr/bin/git fetch --all && /usr/bin /git reset --hard origin/$(git branch | sed -n -e "s/^\* \(.*\)/\1/p") && /usr/bin/git checkout $(git branch | sed -n -e "s/^\* \(.*\)/\1/ p") && sudo /usr/sbin/nginx -s reload'
+*/1 * * * * su -s /bin/sh nginx -c 'cd /websites/cwrcoding.com && [ ! -f pause ] && /usr/bin/git fetch --all && /usr/bin/git checkout master && /usr/bin/git reset --hard origin/master'
+*/1 * * * * su -s /bin/sh nginx -c 'cd /websites/nginx-config  && [ ! -f pause ] && /usr/bin/git fetch --all && /usr/bin/git checkout master && /usr/bin/git reset --hard origin/master && /usr/sbin/nginx -s reload'
 ```
