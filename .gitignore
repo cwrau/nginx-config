@@ -1,4 +1,4 @@
-.htpasswd
+*.htpasswd
 *.swp
 pause
 files/dropin/**
