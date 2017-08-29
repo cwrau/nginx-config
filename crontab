@@ -1,5 +1,5 @@
-0 0 * * * /usr/local/bin/pihole -up >/dev/null 2>&1 && curl -sm 30 k.wdt.io/admin@cwrcoding.com/Update+PI-Hole?c=0_0_*_*_*
-0 0 * * * cd /usr/share/nextcloud/apps/passman && git pull --rebase >/dev/null 2>&1 && curl -sm 30 k.wdt.io/admin@cwrcoding.com/Update+Passman?c=0_0_*_*_*
+0 0 * * * /usr/local/bin/pihole -up >/dev/null 2>&1
+0 0 * * * cd /usr/share/nextcloud/apps/passman && git pull --rebase >/dev/null 2>&1
 
-* * * * * cd /websites/cwrcoding.com && [ ! -f pause ] && /usr/bin/git fetch --all && /usr/bin/git checkout master && /usr/bin/git reset --hard origin/master && curl -sm 30 k.wdt.io/admin@cwrcoding.com/Update+Nginx+Configuration?c=*_*_*_*_*
-* * * * * cd /websites/nginx-config  && [ ! -f pause ] && /usr/bin/git fetch --all && /usr/bin/git checkout master && /usr/bin/git reset --hard origin/master && /usr/sbin/nginx -s reload && curl -sm 30 k.wdt.io/admin@cwrcoding.com/Update+cwrcoding.com?c=*_*_*_*_*
+* * * * * cd /websites/cwrcoding.com && [ ! -f pause ] && /usr/bin/git fetch --all && /usr/bin/git checkout master && /usr/bin/git reset --hard origin/master
+* * * * * cd /websites/nginx-config  && [ ! -f pause ] && /usr/bin/git fetch --all && /usr/bin/git checkout master && /usr/bin/git reset --hard origin/master && /usr/sbin/nginx -s reload
