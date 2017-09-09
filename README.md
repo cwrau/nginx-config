@@ -16,6 +16,6 @@ All the crontabs to autoupdate my website, the nginx configuration and so on are
 The crontab I use to autoupdate the crontab for the user ``nginx`` and renew the Let's Encrypt certificates is;
 
 ```bash
-* * * * * su -s /bin/sh nginx -c 'cd /websites/nginx-config && crontab crontab'
+* * * * * sudo -u nginx /bin/sh -c 'cd /websites/nginx-config && crontab crontab'
 0 0 1 * * /usr/bin/certbot renew
 ```
