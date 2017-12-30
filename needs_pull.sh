@@ -1,9 +1,9 @@
 #!/bin/sh
 
 UPSTREAM=${1:-'@{u}'}
-LOCAL=$(git rev-parse @)
+LOCAL=$(git rev-parse @{0})
 REMOTE=$(git rev-parse "$UPSTREAM")
-BASE=$(git merge-base @ "$UPSTREAM")
+BASE=$(git merge-base @{0} "$UPSTREAM")
 
 if [ $LOCAL = $REMOTE ]; then
     echo "Up-to-date"
