@@ -17,5 +17,5 @@ The crontab I use to autoupdate the crontab for the user ``nginx`` and renew the
 
 ```bash
 * * * * * sudo -u nginx /bin/sh -c 'cd /websites/nginx-config && crontab crontab'
-0 0 1 * * /usr/bin/certbot renew
+0 0 */15 * * /usr/bin/certbot renew --pre-hook "systemctl stop nginx" --post-hook "systemctl start nginx"
 ```
