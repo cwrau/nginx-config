@@ -1,0 +1,14 @@
+version: '3'
+services:
+  nginx:
+    build: .
+    restart: unless-stopped
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - /etc/letsencrypt/live/cwrcoding.com/chain.pem:/etc/nginx/chain.pem:ro
+      - /etc/letsencrypt/live/cwrcoding.com/fullchain.pem:/etc/nginx/fullchain.pem:ro
+      - /etc/letsencrypt/live/cwrcoding.com/privkey.pem:/etc/nginx/privkey.pem:ro
+      - ./files:/etc/nginx/files
+    network_mode: "host"
