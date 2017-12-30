@@ -1,1 +1,0 @@
-* * * * * cd /websites/nginx-config  && [ ! -f pause ] && /usr/bin/git fetch --all && /usr/bin/git checkout master && /usr/bin/git reset --hard origin/master && /usr/sbin/nginx -s reload
