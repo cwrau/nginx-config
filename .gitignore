@@ -1,5 +1,5 @@
 *.htpasswd
 *.swp
 pause
-files/dropin/**
+files
 !files/dropin/dropin.php
