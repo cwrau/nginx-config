@@ -1,7 +1,7 @@
 version: '3'
 services:
   nginx:
-    build: .
+    image: nginx:alpine
     restart: unless-stopped
     ports:
       - 80:80
@@ -10,5 +10,10 @@ services:
       - /etc/letsencrypt/live/cwrcoding.com/chain.pem:/etc/nginx/chain.pem:ro
       - /etc/letsencrypt/live/cwrcoding.com/fullchain.pem:/etc/nginx/fullchain.pem:ro
       - /etc/letsencrypt/live/cwrcoding.com/privkey.pem:/etc/nginx/privkey.pem:ro
-      - ./files:/etc/nginx/files
+      - ./files:/etc/nginx/files:ro
+      - ./sites-available:/etc/nginx/sites-available:ro
+      - ./static_config:/etc/nginx/static_config:ro
+      - ./sites-enabled:/etc/nginx/sites-enabled:ro
+      - ./default_config:/etc/nginx/default_config:ro
+      - ./include.conf:/etc/nginx/conf.d/include.conf:ro
     network_mode: "host"

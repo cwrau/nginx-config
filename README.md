@@ -13,5 +13,5 @@ The crontabs I use to keep the repo up to date and renew the Let's Encrypt certi
 
 ```bash
 0 0 */15 * * /usr/bin/certbot renew --deploy-hook "cd /websites/nginx-config && docker-compose exec nginx nginx -s reload"
-* * *    * * cd /websites/nginx-config && [ ! -f pause ] && ( /usr/bin/git fetch --all && bash needs_pull.sh && ( git clean -fd && git reset origin/master --hard && docker-compose down && docker-compose up -d --build ) )
+* * *    * * cd /websites/nginx-config && [ ! -f pause ] && ( /usr/bin/git fetch --all && bash needs_pull.sh && ( git clean -fd && git reset origin/master --hard && docker-compose exec nginx nginx -s reload ) )
 ```
