@@ -7,12 +7,15 @@ services:
       - 80:80
       - 443:443
     volumes:
-      - /etc/letsencrypt/live/cwrcoding.com/chain.pem:/etc/nginx/chain.pem:ro
-      - /etc/letsencrypt/live/cwrcoding.com/fullchain.pem:/etc/nginx/fullchain.pem:ro
-      - /etc/letsencrypt/live/cwrcoding.com/privkey.pem:/etc/nginx/privkey.pem:ro
+      - ../ssl/cwrcoding.com:/etc/nginx/ssl:ro
+      - acme_challenge:/etc/nginx/acme_challenge:ro
       - ./files:/etc/nginx/files:ro
       - ./sites-available:/etc/nginx/sites-available:ro
       - ./static_config:/etc/nginx/static_config:ro
       - ./sites-enabled:/etc/nginx/sites-enabled:ro
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
     network_mode: "host"
+
+volumes:
+  acme_challenge:
+    external: true
