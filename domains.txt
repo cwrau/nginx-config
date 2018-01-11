@@ -1,1 +1,1 @@
-cwrcoding.com,bank.cwrcoding.com,calendar.cwrcoding.com,cloud.cwrcoding.com,drive.cwrcoding.com,groups.cwrcoding.com,mail.cwrcoding.com,sites.cwrcoding.com,studentenverwaltung.cwrcoding.com,wekan.cwrcoding.com,www.cwrcoding.com
+cwrcoding.com,chat.cwrcoding.com,bank.cwrcoding.com,calendar.cwrcoding.com,cloud.cwrcoding.com,drive.cwrcoding.com,groups.cwrcoding.com,mail.cwrcoding.com,sites.cwrcoding.com,studentenverwaltung.cwrcoding.com,wekan.cwrcoding.com,www.cwrcoding.com
