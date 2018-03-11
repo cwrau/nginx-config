@@ -1,5 +1,9 @@
 # nginx-config
 
+**DEPRECATED!**
+
+**I switched to [Caddy](https://caddyserver.com) using my [caddy-config](https://github.com/cwrau/caddy-config)**
+
 nginx config files for my server
 
 With the fun addition of a PowerShell Rick Rolling script
